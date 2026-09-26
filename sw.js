@@ -1,6 +1,6 @@
-const CACHE='hcgv-psy-v3';
+const CACHE='hcgv-psy-v4';
 const ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest',
-'./data/syllabus.js','./data/weights.js','./data/psych.js','./data/clinical.js','./data/sus.js','./data/laws.js','./data/sources.js','./data/flashcards.js','./data/quiz.js','./data/phases.js','./data/admin.js',
+'./data/syllabus.js','./data/weights.js','./data/psych.js','./data/clinical.js','./data/sus.js','./data/laws.js','./data/sources.js','./data/flashcards.js','./data/quiz.js','./data/phases.js','./data/admin.js','./data/weekly.js',
 './data/updates.json','./data/daily_questions.json'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))));
