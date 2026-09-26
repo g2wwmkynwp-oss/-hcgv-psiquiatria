@@ -1,0 +1,177 @@
+[
+  {
+    "cat": "Psiquiatria",
+    "q": "Paciente idoso apresenta início em horas de desatenção, desorientação, inversão do ciclo sono-vigília e flutuação durante o dia após infecção urinária. O diagnóstico sindrômico mais provável é:",
+    "opts": ["Demência de Alzheimer","Delirium","Transtorno psicótico breve","Depressão com sintomas cognitivos","Transtorno amnéstico persistente"],
+    "answer": "B — Delirium",
+    "explanation": "O início agudo, a flutuação e sobretudo a desatenção apontam para delirium; a causa clínica precipitante deve ser investigada e tratada."
+  },
+  {
+    "cat": "Psiquiatria",
+    "q": "Qual achado diferencia mais fortemente um episódio maníaco de um episódio hipomaníaco?",
+    "opts": ["Aumento de energia","Redução da necessidade de sono","Fala acelerada","Prejuízo acentuado, hospitalização ou psicose","Distratibilidade"],
+    "answer": "D — Prejuízo acentuado, hospitalização ou psicose",
+    "explanation": "Os sintomas podem se sobrepor, mas mania implica maior gravidade funcional, podendo exigir hospitalização ou apresentar psicose."
+  },
+  {
+    "cat": "Psiquiatria",
+    "q": "Produzir intencionalmente sintomas com objetivo predominante de obter benefício financeiro caracteriza mais diretamente:",
+    "opts": ["Transtorno de sintomas somáticos","Transtorno factício","Simulação","Conversão","Dissociação"],
+    "answer": "C — Simulação",
+    "explanation": "Ganho externo predominante aponta para simulação; no factício, a motivação central é assumir o papel de doente."
+  },
+  {
+    "cat": "Psiquiatria",
+    "q": "Após aumento de antidepressivo serotoninérgico, paciente desenvolve agitação, hipertermia, diarreia, hiperreflexia e clônus. O quadro é mais compatível com:",
+    "opts": ["Síndrome neuroléptica maligna","Síndrome serotoninérgica","Abstinência alcoólica","Catatonia maligna","Hipertermia maligna"],
+    "answer": "B — Síndrome serotoninérgica",
+    "explanation": "Clônus e hiperreflexia são pistas muito úteis para síndrome serotoninérgica."
+  },
+  {
+    "cat": "Psiquiatria",
+    "q": "Em um paciente com esquizofrenia resistente após tentativas adequadas de antipsicóticos, qual fármaco merece consideração clássica?",
+    "opts": ["Buspirona","Clozapina","Bupropiona","Lamotrigina","Donepezila"],
+    "answer": "B — Clozapina",
+    "explanation": "Clozapina é referência em resistência terapêutica e exige monitorização específica."
+  },
+  {
+    "cat": "Psiquiatria",
+    "q": "Qual substância pode cursar com abstinência potencialmente fatal com convulsões e delirium?",
+    "opts": ["Cafeína","Cannabis","Álcool","Nicotina","LSD"],
+    "answer": "C — Álcool",
+    "explanation": "A abstinência alcoólica pode evoluir com convulsões e delirium tremens."
+  },
+  {
+    "cat": "Psiquiatria",
+    "q": "A percepção de uma voz na ausência de estímulo auditivo externo é denominada:",
+    "opts": ["Ilusão","Alucinação","Delírio","Despersonalização","Paramnésia"],
+    "answer": "B — Alucinação",
+    "explanation": "Alucinação é percepção sem objeto/estímulo externo correspondente."
+  },
+  {
+    "cat": "Psiquiatria",
+    "q": "Em avaliação de risco suicida, qual opção está mais alinhada a boa prática?",
+    "opts": ["Usar apenas uma escala e decidir pela pontuação","Evitar perguntar sobre plano para não aumentar o risco","Integrar ideação, plano, meios, intenção, tentativas prévias, estado mental e fatores protetores","Considerar que ausência de depressão exclui risco","Liberar sempre que o paciente negar ideação no momento"],
+    "answer": "C — Integrar ideação, plano, meios, intenção, tentativas prévias, estado mental e fatores protetores",
+    "explanation": "A avaliação é clínica e estruturada, integrando múltiplos domínios; escalas não substituem julgamento clínico."
+  },
+  {
+    "cat": "SUS",
+    "q": "Segundo a Lei 8.142/1990, a Conferência de Saúde reúne-se ordinariamente:",
+    "opts": ["Anualmente","A cada 2 anos","A cada 3 anos","A cada 4 anos","A cada 5 anos"],
+    "answer": "D — A cada 4 anos",
+    "explanation": "A Lei 8.142 estabelece periodicidade de quatro anos, sem prejuízo de convocação extraordinária."
+  },
+  {
+    "cat": "SUS",
+    "q": "No Decreto 7.508/2011, Região de Saúde é, em síntese:",
+    "opts": ["Um hospital de referência estadual","Agrupamento contínuo de municípios limítrofes para integrar planejamento e execução de ações e serviços","Qualquer consórcio municipal","Uma divisão apenas administrativa do Ministério da Saúde","Apenas a área coberta por uma UBS"],
+    "answer": "B — Agrupamento contínuo de municípios limítrofes para integrar planejamento e execução de ações e serviços",
+    "explanation": "A definição legal enfatiza espaço geográfico contínuo, municípios limítrofes e integração da organização, planejamento e execução."
+  },
+  {
+    "cat": "SUS",
+    "q": "A Constituição Federal estabelece que as ações e serviços públicos de saúde integram uma rede:",
+    "opts": ["Centralizada e independente","Regionalizada e hierarquizada","Privada e suplementar","Exclusivamente municipal","Exclusivamente federal"],
+    "answer": "B — Regionalizada e hierarquizada",
+    "explanation": "Regionalização e hierarquização são diretrizes constitucionais da organização das ações e serviços públicos de saúde."
+  },
+  {
+    "cat": "SUS",
+    "q": "Qual norma trata diretamente da participação da comunidade na gestão do SUS e das transferências intergovernamentais de recursos?",
+    "opts": ["Lei 8.080/1990","Lei 8.142/1990","Decreto 7.508/2011","Lei 6.304/2000","Resolução CFM 2.217/2018"],
+    "answer": "B — Lei 8.142/1990",
+    "explanation": "Esse é o objeto expresso da Lei 8.142/1990."
+  },
+  {
+    "cat": "SUS",
+    "q": "No SUS, integralidade significa, em essência:",
+    "opts": ["Atendimento igual sem considerar necessidades","Conjunto articulado e contínuo de ações preventivas e curativas, individuais e coletivas, conforme necessidade","Acesso somente pela atenção básica","Cobertura exclusiva de procedimentos de alta complexidade","Financiamento apenas federal"],
+    "answer": "B — Conjunto articulado e contínuo de ações preventivas e curativas, individuais e coletivas, conforme necessidade",
+    "explanation": "Integralidade combina ações necessárias em diferentes níveis e dimensões do cuidado."
+  },
+  {
+    "cat": "Legislação",
+    "q": "A Lei Estadual 6.304/2000 criou a FHCGV como:",
+    "opts": ["Empresa pública com fins lucrativos","Autarquia federal","Fundação pública estadual, de direito público e sem fins lucrativos","Organização social privada","Sociedade de economia mista"],
+    "answer": "C — Fundação pública estadual, de direito público e sem fins lucrativos",
+    "explanation": "A lei de criação define a FHCGV como fundação pública estadual com personalidade jurídica de direito público, sem fins lucrativos."
+  },
+  {
+    "cat": "Legislação",
+    "q": "Entre as finalidades destacadas na Lei 6.304/2000 está o atendimento especializado em:",
+    "opts": ["Cardiologia, nefrologia e psiquiatria","Ortopedia, dermatologia e oftalmologia apenas","Cirurgia plástica exclusivamente","Medicina veterinária","Somente atenção primária"],
+    "answer": "A — Cardiologia, nefrologia e psiquiatria",
+    "explanation": "A lei cita expressamente cardiologia, nefrologia e psiquiatria, além de outras clínicas necessárias ao tratamento sistêmico."
+  },
+  {
+    "cat": "Clínica Geral",
+    "q": "Em anafilaxia com comprometimento sistêmico, a primeira linha farmacológica é:",
+    "opts": ["Hidrocortisona IV","Anti-histamínico oral","Adrenalina intramuscular","Salbutamol isoladamente","Noradrenalina antes de adrenalina"],
+    "answer": "C — Adrenalina intramuscular",
+    "explanation": "Adrenalina IM é tratamento de primeira linha; medidas adjuvantes não devem atrasá-la."
+  },
+  {
+    "cat": "Clínica Geral",
+    "q": "Em suspeita de AVC agudo, antes de terapias de reperfusão específicas, é essencial:",
+    "opts": ["Aguardar 24 horas","Realizar neuroimagem para excluir hemorragia","Administrar anticoagulante a todos","Normalizar a PA para 120/80 em todos","Realizar punção lombar de rotina"],
+    "answer": "B — Realizar neuroimagem para excluir hemorragia",
+    "explanation": "A distinção entre AVC isquêmico e hemorrágico por neuroimagem é etapa crítica para terapias específicas."
+  },
+  {
+    "cat": "Clínica Geral",
+    "q": "Paciente com hipoglicemia, rebaixamento de consciência e acesso venoso disponível deve receber prioritariamente:",
+    "opts": ["Insulina regular","Correção rápida de glicose por via adequada","Bicarbonato de sódio","Diurético","Betabloqueador"],
+    "answer": "B — Correção rápida de glicose por via adequada",
+    "explanation": "Hipoglicemia sintomática grave exige correção imediata; a via depende de consciência e acesso."
+  },
+  {
+    "cat": "Clínica Geral",
+    "q": "O achado de dispneia súbita, dor pleurítica, taquicardia e fatores de risco trombóticos deve levantar hipótese de:",
+    "opts": ["Embolia pulmonar","DRGE","Gota","Hipotireoidismo","Colecistite"],
+    "answer": "A — Embolia pulmonar",
+    "explanation": "O conjunto é típico de embolia pulmonar e deve ser estratificado conforme probabilidade clínica e estabilidade."
+  },
+  {
+    "cat": "Clínica Geral",
+    "q": "Na abordagem inicial do choque, a prioridade geral é:",
+    "opts": ["Definir etiologia histológica antes de qualquer intervenção","Reconhecer hipoperfusão, estabilizar ABC e tratar a causa","Administrar diurético em todos","Evitar monitorização","Aguardar exames completos"],
+    "answer": "B — Reconhecer hipoperfusão, estabilizar ABC e tratar a causa",
+    "explanation": "Choque é emergência; estabilização e tratamento etiológico caminham juntos."
+  },
+  {
+    "cat": "Português",
+    "q": "Na frase 'Há muitos candidatos preparados', o verbo 'haver' permanece no singular porque:",
+    "opts": ["Concorda com 'muitos'","É impessoal no sentido de existir","Está no futuro","É auxiliar","É verbo de ligação"],
+    "answer": "B — É impessoal no sentido de existir",
+    "explanation": "Haver com sentido de existir é impessoal e fica na terceira pessoa do singular."
+  },
+  {
+    "cat": "Português",
+    "q": "Para verificar corretamente o emprego da crase, é fundamental observar:",
+    "opts": ["Apenas a tonicidade","Regência do termo anterior e presença de artigo feminino","Quantidade de sílabas","Se a frase é longa","Somente a pontuação"],
+    "answer": "B — Regência do termo anterior e presença de artigo feminino",
+    "explanation": "A crase resulta, em regra, da fusão da preposição 'a' exigida pela regência com artigo/pronome iniciado por 'a'."
+  },
+  {
+    "cat": "RLM",
+    "q": "Em espaço amostral equiprovável, a probabilidade de um evento é:",
+    "opts": ["Casos possíveis/casos favoráveis","Casos favoráveis/casos possíveis","Sempre 50%","Número de eventos × 100","Independente do espaço amostral"],
+    "answer": "B — Casos favoráveis/casos possíveis",
+    "explanation": "A fórmula elementar é número de resultados favoráveis dividido pelo número total de resultados possíveis, quando equiprováveis."
+  },
+  {
+    "cat": "RLM",
+    "q": "Se A = {1,2,3} e B = {3,4}, então A ∩ B é:",
+    "opts": ["{1,2,3,4}","{3}","{1,2}","{4}","∅"],
+    "answer": "B — {3}",
+    "explanation": "Interseção contém somente os elementos comuns aos dois conjuntos."
+  },
+  {
+    "cat": "Ética e Qualidade",
+    "q": "Em atendimento ao público, empatia corresponde mais adequadamente a:",
+    "opts": ["Concordar sempre com o usuário","Compreender a perspectiva do outro sem abandonar critérios profissionais","Evitar comunicação","Ser informal em qualquer situação","Ocultar informações relevantes"],
+    "answer": "B — Compreender a perspectiva do outro sem abandonar critérios profissionais",
+    "explanation": "Empatia envolve compreensão da perspectiva/experiência do outro, compatível com comunicação profissional e objetiva."
+  }
+]
