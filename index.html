@@ -12,7 +12,7 @@
 <aside id="sidebar">
   <div class="logo"><span>Plataforma de estudo</span>HCGV C-224<br>Médico · Psiquiatria</div>
   <nav>
-    <a href="#painel">Painel</a><a href="#atualizacoes">Atualizações diárias</a><a href="#estrategia">Estratégia</a><a href="#edital">Edital completo</a><a href="#psiquiatria">Psiquiatria</a><a href="#clinica">Clínica Geral</a><a href="#sus">SUS</a><a href="#legislacao">Legislação</a><a href="#basicas">Português · RLM · Ética</a><a href="#plano">Plano até a prova</a><a href="#hoje">Estudar hoje</a><a href="#questoes">Questões</a><a href="#flashcards">Flashcards</a><a href="#discursiva">Discursiva</a><a href="#administrativo">Prazos</a><a href="#fontes">Fontes</a>
+    <a href="#painel">Painel</a><a href="#atualizacoes">Atualizações diárias</a><a href="#estrategia">Estratégia</a><a href="#edital">Edital completo</a><a href="#psiquiatria">Psiquiatria</a><a href="#clinica">Clínica Geral</a><a href="#sus">SUS</a><a href="#legislacao">Legislação</a><a href="#basicas">Português · RLM · Ética</a><a href="#materiais">Materiais-fonte</a><a href="#rotina">Plano semanal</a><a href="#plano">Plano até a prova</a><a href="#hoje">Estudar hoje</a><a href="#questoes">Questões</a><a href="#flashcards">Flashcards</a><a href="#discursiva">Discursiva</a><a href="#administrativo">Prazos</a><a href="#fontes">Fontes</a>
   </nav>
   <div class="side-note">Progresso salvo neste navegador. Use “Exportar backup” para não perder seus dados.</div>
 </aside>
@@ -108,6 +108,24 @@
 </div>
 </section>
 
+<section id="materiais">
+<h2>Quais materiais você precisa me enviar</h2>
+<p class="lead">As leis e normas públicas eu consigo manter por fontes oficiais. Para transformar o site de um roteiro de estudos em um curso realmente completo, as maiores lacunas de fonte são Psiquiatria, Clínica Geral, Português e RLM — além de questões da Consulplan.</p>
+<div class="callout"><strong>Ordem para enviar:</strong> 1) Psiquiatria; 2) Clínica Geral; 3) questões Consulplan; 4) Português; 5) RLM; 6) Discursiva; 7) Ética/Qualidade. SUS e legislação estadual são opcionais porque já têm fonte oficial pública.</div>
+<div class="table-wrap"><table><thead><tr><th>Matéria/fonte</th><th>Precisa enviar?</th><th>Prioridade</th><th>O que enviar</th><th>Por quê</th></tr></thead><tbody id="sourceNeedsRows"></tbody></table></div>
+<div class="notice" style="margin-top:12px">Pode enviar PDFs/apostilas em partes. Não precisa esperar reunir tudo. Conforme cada fonte entrar, o conteúdo daquela matéria pode ser aprofundado no site com aulas, resumos, questões, flashcards e revisões.</div>
+</section>
+
+<section id="rotina">
+<h2>Plano semanal encaixado na sua rotina</h2>
+<p class="lead">Este é o cronograma-base recorrente, desenhado em torno da residência, IML, Instituto Maués, treinos, natação, deslocamentos e sono. Ele evita estudo noturno após os dias mais longos e usa sábado como principal bloco de aferição.</p>
+<div class="card soft"><h3>Carga-base</h3><div class="kpi">9h15/semana</div><p id="weeklyTarget" class="muted"></p><p id="weeklyPrinciple"></p></div>
+<div class="table-wrap" style="margin-top:16px"><table><thead><tr><th>Dia</th><th>Rotina fixa</th><th>Estudo</th><th>Matéria</th><th>Execução</th><th>Plano B</th></tr></thead><tbody id="weeklyRows"></tbody></table></div>
+<h3 style="margin-top:24px">Rodízio de conteúdo por semana</h3>
+<div id="rotationGrid" class="grid g2"></div>
+<div class="callout"><strong>Regra de adaptação:</strong> se um atendimento particular ocupar o bloco principal, use o horário-reserva do mesmo dia. Se houver plantão noturno, não compense sacrificando sono. O bloco perdido vai para sábado ou é absorvido pela semana seguinte.</div>
+</section>
+
 <section id="plano">
 <h2>Plano em 4 fases até 13/12</h2>
 <p class="lead">O plano é deliberadamente adaptativo: o percentual de acerto manda mais que a sensação de familiaridade.</p>
@@ -188,5 +206,6 @@
 <script src="data/quiz.js"></script>
 <script src="data/phases.js"></script>
 <script src="data/admin.js"></script>
+<script src="data/weekly.js"></script>
 <script src="app.js"></script>
 </body></html>
