@@ -80,3 +80,19 @@ async function loadDaily(){
 }
 loadDaily();
 if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(()=>{});
+
+
+/* Plano semanal personalizado e mapa de fontes */
+const sourceNeedsRows=document.getElementById('sourceNeedsRows');
+if(sourceNeedsRows && typeof SOURCE_NEEDS!=='undefined'){
+  sourceNeedsRows.innerHTML=SOURCE_NEEDS.map(x=>`<tr><td><b>${esc(x.subject)}</b></td><td>${esc(x.need)}</td><td><span class="tag ${x.priority.includes('máxima')?'red':x.priority==='Alta'?'gold':''}">${esc(x.priority)}</span></td><td>${esc(x.what)}</td><td>${esc(x.why)}</td></tr>`).join('');
+}
+if(typeof WEEKLY_PLAN!=='undefined'){
+  const wt=document.getElementById('weeklyTarget'), wp=document.getElementById('weeklyPrinciple');
+  if(wt) wt.textContent=WEEKLY_PLAN.target;
+  if(wp) wp.textContent=WEEKLY_PLAN.principle;
+  const rows=document.getElementById('weeklyRows');
+  if(rows) rows.innerHTML=WEEKLY_PLAN.days.map(x=>`<tr><td><b>${esc(x.day)}</b><div class="small">${esc(x.duration)}</div></td><td>${esc(x.fixed)}</td><td><b>${esc(x.study)}</b><div class="small">${esc(x.note)}</div></td><td><b>${esc(x.subject)}</b></td><td>${esc(x.work)}</td><td>${esc(x.backup)}</td></tr>`).join('');
+  const rot=document.getElementById('rotationGrid');
+  if(rot) rot.innerHTML=WEEKLY_PLAN.rotation.map(x=>`<div class="card"><span class="tag">${esc(x[0])}</span><p style="margin-bottom:0">${esc(x[1])}</p></div>`).join('');
+}
