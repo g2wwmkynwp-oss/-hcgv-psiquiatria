@@ -1,0 +1,30 @@
+name: Atualização diária HCGV
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Instalar cliente OpenAI (opcional)
+        run: pip install -q openai
+      - name: Gerar atualização diária
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5.6-luna
+        run: python scripts/daily_update.py
+      - name: Commit quando houver mudança
+        run: |
+          git config user.name "hcgv-study-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && exit 0
+          git commit -m "Atualização diária $(date -u +%F)"
+          git push
