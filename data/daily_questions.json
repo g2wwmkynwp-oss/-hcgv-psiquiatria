@@ -1,0 +1,61 @@
+{
+  "generated_at": "26/09/2026",
+  "questions": [
+    {
+      "cat": "Clínica Geral",
+      "q": "Na abordagem inicial do choque, a prioridade geral é:",
+      "opts": ["Definir etiologia histológica antes de qualquer intervenção","Reconhecer hipoperfusão, estabilizar ABC e tratar a causa","Administrar diurético em todos","Evitar monitorização","Aguardar exames completos"],
+      "answer": "B — Reconhecer hipoperfusão, estabilizar ABC e tratar a causa",
+      "explanation": "Choque é emergência; estabilização e tratamento etiológico caminham juntos."
+    },
+    {
+      "cat": "Psiquiatria",
+      "q": "Em avaliação de risco suicida, qual opção está mais alinhada a boa prática?",
+      "opts": ["Usar apenas uma escala e decidir pela pontuação","Evitar perguntar sobre plano para não aumentar o risco","Integrar ideação, plano, meios, intenção, tentativas prévias, estado mental e fatores protetores","Considerar que ausência de depressão exclui risco","Liberar sempre que o paciente negar ideação no momento"],
+      "answer": "C — Integrar ideação, plano, meios, intenção, tentativas prévias, estado mental e fatores protetores",
+      "explanation": "A avaliação é clínica e estruturada, integrando múltiplos domínios; escalas não substituem julgamento clínico."
+    },
+    {
+      "cat": "SUS",
+      "q": "A Constituição Federal estabelece que as ações e serviços públicos de saúde integram uma rede:",
+      "opts": ["Centralizada e independente","Regionalizada e hierarquizada","Privada e suplementar","Exclusivamente municipal","Exclusivamente federal"],
+      "answer": "B — Regionalizada e hierarquizada",
+      "explanation": "Regionalização e hierarquização são diretrizes constitucionais da organização das ações e serviços públicos de saúde."
+    },
+    {
+      "cat": "Legislação",
+      "q": "Entre as finalidades destacadas na Lei 6.304/2000 está o atendimento especializado em:",
+      "opts": ["Cardiologia, nefrologia e psiquiatria","Ortopedia, dermatologia e oftalmologia apenas","Cirurgia plástica exclusivamente","Medicina veterinária","Somente atenção primária"],
+      "answer": "A — Cardiologia, nefrologia e psiquiatria",
+      "explanation": "A lei cita expressamente cardiologia, nefrologia e psiquiatria, além de outras clínicas necessárias ao tratamento sistêmico."
+    },
+    {
+      "cat": "Psiquiatria",
+      "q": "A percepção de uma voz na ausência de estímulo auditivo externo é denominada:",
+      "opts": ["Ilusão","Alucinação","Delírio","Despersonalização","Paramnésia"],
+      "answer": "B — Alucinação",
+      "explanation": "Alucinação é percepção sem objeto/estímulo externo correspondente."
+    },
+    {
+      "cat": "Clínica Geral",
+      "q": "Em suspeita de AVC agudo, antes de terapias de reperfusão específicas, é essencial:",
+      "opts": ["Aguardar 24 horas","Realizar neuroimagem para excluir hemorragia","Administrar anticoagulante a todos","Normalizar a PA para 120/80 em todos","Realizar punção lombar de rotina"],
+      "answer": "B — Realizar neuroimagem para excluir hemorragia",
+      "explanation": "A distinção entre AVC isquêmico e hemorrágico por neuroimagem é etapa crítica para terapias específicas."
+    },
+    {
+      "cat": "Ética e Qualidade",
+      "q": "Em atendimento ao público, empatia corresponde mais adequadamente a:",
+      "opts": ["Concordar sempre com o usuário","Compreender a perspectiva do outro sem abandonar critérios profissionais","Evitar comunicação","Ser informal em qualquer situação","Ocultar informações relevantes"],
+      "answer": "B — Compreender a perspectiva do outro sem abandonar critérios profissionais",
+      "explanation": "Empatia envolve compreensão da perspectiva/experiência do outro, compatível com comunicação profissional e objetiva."
+    },
+    {
+      "cat": "RLM",
+      "q": "Em espaço amostral equiprovável, a probabilidade de um evento é:",
+      "opts": ["Casos possíveis/casos favoráveis","Casos favoráveis/casos possíveis","Sempre 50%","Número de eventos × 100","Independente do espaço amostral"],
+      "answer": "B — Casos favoráveis/casos possíveis",
+      "explanation": "A fórmula elementar é número de resultados favoráveis dividido pelo número total de resultados possíveis, quando equiprováveis."
+    }
+  ]
+}
