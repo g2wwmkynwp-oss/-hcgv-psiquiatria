@@ -5,6 +5,8 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  pages: write
+  id-token: write
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -13,12 +15,7 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Instalar cliente OpenAI (opcional)
-        run: pip install -q openai
-      - name: Gerar atualização diária
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-5.6-luna
+      - name: Atualizar fontes e selecionar questões
         run: python scripts/daily_update.py
       - name: Commit quando houver mudança
         run: |
@@ -28,3 +25,17 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Atualização diária $(date -u +%F)"
           git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: '.'
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar relatório
+        id: deployment
+        uses: actions/deploy-pages@v4

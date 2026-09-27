@@ -1,25 +1,21 @@
 # HCGV C-224 — Médico Psiquiatria
 
-Plataforma de estudos estática, responsiva e instalável (PWA) para o concurso da FHCGV.
+Site estático no GitHub Pages. Agora mostra a próxima atividade, uma sessão interrompida ou descanso. Cronograma, Conteúdos, Praticar, Histórico e Fontes ficam separados.
 
-## Publicar no GitHub Pages
-1. Crie um repositório no GitHub e envie todo o conteúdo desta pasta para a branch `main`.
-2. Em **Settings → Pages**, selecione **GitHub Actions** como fonte.
-3. A workflow `pages.yml` publica o site automaticamente.
-4. A workflow `daily-update.yml` roda diariamente às 07:00 (horário de Belém), verifica fontes oficiais e renova as questões do dia.
+## Planejamento e dados
+Cronograma calculado a partir de tempo disponível, registros anteriores, erros e revisões vencidas. Projeção não presume cumprimento. Pesos pedagógicos não representam divisão oficial de questões entre Clínica e Psiquiatria. Domingo prioriza revisão.
 
-## Questões realmente inéditas todos os dias
-A atualização funciona sem chave usando rotação do banco local. Para gerar questões inéditas por IA diariamente:
-1. Crie uma chave de API da OpenAI.
-2. No repositório: **Settings → Secrets and variables → Actions → New repository secret**.
-3. Nome: `OPENAI_API_KEY`.
-4. Cole a chave. A workflow passa a gerar 8 novas questões por dia; se houver qualquer falha, usa automaticamente o banco local.
+Dados locais na chave original hcgv-c224-psy-v1. Backup anterior à migração preservado. Exporte o histórico para trocar de aparelho. Não existe sincronização automática ou acesso à conta BIPP Prime. O servidor não acessa o histórico local.
 
-## Atualizações oficiais
-O script acompanha páginas oficiais configuradas em `scripts/daily_update.py`. Uma alteração detectada é exibida no painel **Atualizações diárias**, sempre com link para a fonte. Mudanças legais ou de edital devem ser conferidas no documento oficial antes de alterar a estratégia de prova.
+## Conteúdo
+Programa indexado; acervo didático parcial. Sínteses introdutórias, roteiros externos e materiais pendentes são identificados. Questões autorais com referências, não oficiais. Inspiração em prova anterior identificada quando verificada.
 
-## Vercel / Netlify
-O repositório também contém `vercel.json` e `netlify.toml`; basta importar o repositório nessas plataformas. O GitHub Actions continua sendo responsável pelos arquivos de atualização diária.
+BIPP Prime exige índice e títulos reais fornecidos pelo usuário. MEDGRUPO/MEDCURSO/MED vinculados por páginas oficiais públicas, sem reprodução de apostilas pagas. Gratuito não significa domínio público. Fontes lista os materiais pendentes.
 
-## Uso offline
-Depois de publicado, abra o site no Safari/Chrome e use **Adicionar à Tela de Início**. O service worker mantém a plataforma-base disponível offline; dados diários são atualizados quando houver conexão.
+## Atualização diária
+Workflow às 07:00 de Belém compara páginas oficiais, informa falhas e seleciona oito exercícios do banco. Não gera conteúdo médico ou legal por IA. Mudança de página não comprova retificação. Publica no mesmo workflow, pois commits do GITHUB_TOKEN não disparam outro workflow de push.
+
+O cronograma individual é recalculado ao usar o site e na virada do dia enquanto aberto. Aulas e questões externas exigem registro manual.
+
+## Desenvolvimento
+Sirva esta pasta por HTTP. Entrada: index.html, engine.js e app-v2.js. Acervo: data/catalog.js e data/questions.js. Arquivos legados preservados, não carregados pela nova interface. Cache offline requer primeiro acesso conectado.

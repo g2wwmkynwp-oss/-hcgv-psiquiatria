@@ -1,61 +1,183 @@
 {
-  "generated_at": "26/09/2026",
+  "generated_at": "27/09/2026",
+  "kind": "Seleção do banco autoral; não são inéditas diárias.",
   "questions": [
     {
-      "cat": "Clínica Geral",
-      "q": "Na abordagem inicial do choque, a prioridade geral é:",
-      "opts": ["Definir etiologia histológica antes de qualquer intervenção","Reconhecer hipoperfusão, estabilizar ABC e tratar a causa","Administrar diurético em todos","Evitar monitorização","Aguardar exames completos"],
-      "answer": "B — Reconhecer hipoperfusão, estabilizar ABC e tratar a causa",
-      "explanation": "Choque é emergência; estabilização e tratamento etiológico caminham juntos."
-    },
-    {
+      "id": "psy04",
       "cat": "Psiquiatria",
-      "q": "Em avaliação de risco suicida, qual opção está mais alinhada a boa prática?",
-      "opts": ["Usar apenas uma escala e decidir pela pontuação","Evitar perguntar sobre plano para não aumentar o risco","Integrar ideação, plano, meios, intenção, tentativas prévias, estado mental e fatores protetores","Considerar que ausência de depressão exclui risco","Liberar sempre que o paciente negar ideação no momento"],
-      "answer": "C — Integrar ideação, plano, meios, intenção, tentativas prévias, estado mental e fatores protetores",
-      "explanation": "A avaliação é clínica e estruturada, integrando múltiplos domínios; escalas não substituem julgamento clínico."
+      "topic": "Psiquiatria::9",
+      "q": "Após resposta insuficiente a duas tentativas adequadas de antipsicóticos diferentes, qual tratamento é destacado na NICE CG178?",
+      "opts": [
+        "Clozapina",
+        "Donepezila",
+        "Buspirona",
+        "Melatonina"
+      ],
+      "a": 0,
+      "ex": "A indicação pressupõe avaliação das tentativas e dos fatores que podem explicar a resposta insuficiente; não é uma troca automática sem monitorização.",
+      "refs": [
+        "psicose"
+      ],
+      "inspiration": "Autoral de fixação; sem atribuição à banca",
+      "reviewed": "2026-09-26",
+      "kind": "Autoral",
+      "answer": "A — Clozapina",
+      "explanation": "A indicação pressupõe avaliação das tentativas e dos fatores que podem explicar a resposta insuficiente; não é uma troca automática sem monitorização."
     },
     {
-      "cat": "SUS",
-      "q": "A Constituição Federal estabelece que as ações e serviços públicos de saúde integram uma rede:",
-      "opts": ["Centralizada e independente","Regionalizada e hierarquizada","Privada e suplementar","Exclusivamente municipal","Exclusivamente federal"],
-      "answer": "B — Regionalizada e hierarquizada",
-      "explanation": "Regionalização e hierarquização são diretrizes constitucionais da organização das ações e serviços públicos de saúde."
+      "id": "sus01",
+      "cat": "Políticas de Saúde Pública",
+      "topic": "Políticas de Saúde Pública::3",
+      "q": "Qual instância da Lei 8.142/1990 tem caráter permanente e deliberativo?",
+      "opts": [
+        "Conferência de Saúde",
+        "Conselho de Saúde",
+        "Conselho tutelar",
+        "Comissão de concurso"
+      ],
+      "a": 1,
+      "ex": "Conselho é permanente e deliberativo; a conferência tem reunião ordinária quadrienal.",
+      "refs": [
+        "sus8142"
+      ],
+      "inspiration": "Autoral de fixação; sem atribuição à banca",
+      "reviewed": "2026-09-26",
+      "kind": "Autoral",
+      "answer": "B — Conselho de Saúde",
+      "explanation": "Conselho é permanente e deliberativo; a conferência tem reunião ordinária quadrienal."
     },
     {
-      "cat": "Legislação",
-      "q": "Entre as finalidades destacadas na Lei 6.304/2000 está o atendimento especializado em:",
-      "opts": ["Cardiologia, nefrologia e psiquiatria","Ortopedia, dermatologia e oftalmologia apenas","Cirurgia plástica exclusivamente","Medicina veterinária","Somente atenção primária"],
-      "answer": "A — Cardiologia, nefrologia e psiquiatria",
-      "explanation": "A lei cita expressamente cardiologia, nefrologia e psiquiatria, além de outras clínicas necessárias ao tratamento sistêmico."
+      "id": "sus05",
+      "cat": "Políticas de Saúde Pública",
+      "topic": "Políticas de Saúde Pública::2",
+      "q": "A RENAME diz respeito principalmente a:",
+      "opts": [
+        "Medicamentos",
+        "Todas as ações e serviços",
+        "Regiões administrativas",
+        "Cargos públicos"
+      ],
+      "a": 0,
+      "ex": "RENAME e RENASES são relações diferentes: medicamentos versus ações e serviços de saúde.",
+      "refs": [
+        "decreto"
+      ],
+      "inspiration": "Autoral de fixação; sem atribuição à banca",
+      "reviewed": "2026-09-26",
+      "kind": "Autoral",
+      "answer": "A — Medicamentos",
+      "explanation": "RENAME e RENASES são relações diferentes: medicamentos versus ações e serviços de saúde."
     },
     {
-      "cat": "Psiquiatria",
-      "q": "A percepção de uma voz na ausência de estímulo auditivo externo é denominada:",
-      "opts": ["Ilusão","Alucinação","Delírio","Despersonalização","Paramnésia"],
-      "answer": "B — Alucinação",
-      "explanation": "Alucinação é percepção sem objeto/estímulo externo correspondente."
+      "id": "rlm02",
+      "cat": "Raciocínio Lógico-Matemático",
+      "topic": "Raciocínio Lógico-Matemático::6",
+      "q": "Em sorteio equiprovável de um número de 1 a 10, a chance de sair um múltiplo de 3 é:",
+      "opts": [
+        "1/10",
+        "2/10",
+        "3/10",
+        "5/10"
+      ],
+      "a": 2,
+      "ex": "Os casos favoráveis são 3, 6 e 9: três em dez.",
+      "refs": [
+        "probabilidade"
+      ],
+      "inspiration": "Autoral de fixação; sem atribuição à banca",
+      "reviewed": "2026-09-26",
+      "kind": "Autoral",
+      "answer": "C — 3/10",
+      "explanation": "Os casos favoráveis são 3, 6 e 9: três em dez."
     },
     {
-      "cat": "Clínica Geral",
-      "q": "Em suspeita de AVC agudo, antes de terapias de reperfusão específicas, é essencial:",
-      "opts": ["Aguardar 24 horas","Realizar neuroimagem para excluir hemorragia","Administrar anticoagulante a todos","Normalizar a PA para 120/80 em todos","Realizar punção lombar de rotina"],
-      "answer": "B — Realizar neuroimagem para excluir hemorragia",
-      "explanation": "A distinção entre AVC isquêmico e hemorrágico por neuroimagem é etapa crítica para terapias específicas."
+      "id": "rlm05",
+      "cat": "Raciocínio Lógico-Matemático",
+      "topic": "Raciocínio Lógico-Matemático::7",
+      "q": "Na sequência 5, 9, 13, 17, o próximo termo é:",
+      "opts": [
+        "19",
+        "20",
+        "21",
+        "25"
+      ],
+      "a": 2,
+      "ex": "É uma PA de razão 4: 17+4=21.",
+      "refs": [
+        "obmep"
+      ],
+      "inspiration": "Autoral de fixação; sem atribuição à banca",
+      "reviewed": "2026-09-26",
+      "kind": "Autoral",
+      "answer": "C — 21",
+      "explanation": "É uma PA de razão 4: 17+4=21."
     },
     {
+      "id": "eti01",
       "cat": "Ética e Qualidade",
-      "q": "Em atendimento ao público, empatia corresponde mais adequadamente a:",
-      "opts": ["Concordar sempre com o usuário","Compreender a perspectiva do outro sem abandonar critérios profissionais","Evitar comunicação","Ser informal em qualquer situação","Ocultar informações relevantes"],
-      "answer": "B — Compreender a perspectiva do outro sem abandonar critérios profissionais",
-      "explanation": "Empatia envolve compreensão da perspectiva/experiência do outro, compatível com comunicação profissional e objetiva."
+      "topic": "Ética e Qualidade::14",
+      "q": "Diante de um usuário frustrado, uma postura empática é:",
+      "opts": [
+        "Concordar com tudo",
+        "Escutar, compreender e explicar limites com respeito",
+        "Ignorar a queixa",
+        "Prometer resultado impossível"
+      ],
+      "a": 1,
+      "ex": "Empatia é compatível com critérios profissionais e comunicação clara.",
+      "refs": [
+        "enap"
+      ],
+      "inspiration": "Autoral de fixação; sem atribuição à banca",
+      "reviewed": "2026-09-26",
+      "kind": "Autoral",
+      "answer": "B — Escutar, compreender e explicar limites com respeito",
+      "explanation": "Empatia é compatível com critérios profissionais e comunicação clara."
     },
     {
-      "cat": "RLM",
-      "q": "Em espaço amostral equiprovável, a probabilidade de um evento é:",
-      "opts": ["Casos possíveis/casos favoráveis","Casos favoráveis/casos possíveis","Sempre 50%","Número de eventos × 100","Independente do espaço amostral"],
-      "answer": "B — Casos favoráveis/casos possíveis",
-      "explanation": "A fórmula elementar é número de resultados favoráveis dividido pelo número total de resultados possíveis, quando equiprováveis."
+      "id": "rlm04",
+      "cat": "Raciocínio Lógico-Matemático",
+      "topic": "Raciocínio Lógico-Matemático::0",
+      "q": "Um número foi multiplicado por 3 e recebeu 6, resultando em 42. O número inicial é:",
+      "opts": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "a": 1,
+      "ex": "Reversão: (42−6)/3 = 12. Faça primeiro a inversa da última operação.",
+      "refs": [
+        "obmep"
+      ],
+      "inspiration": "Autoral de fixação; sem atribuição à banca",
+      "reviewed": "2026-09-26",
+      "kind": "Autoral",
+      "answer": "B — 12",
+      "explanation": "Reversão: (42−6)/3 = 12. Faça primeiro a inversa da última operação."
+    },
+    {
+      "id": "por01",
+      "cat": "Língua Portuguesa",
+      "topic": "Língua Portuguesa::11",
+      "q": "Em “A equipe encaminhou a solicitação à coordenação”, o acento grave representa:",
+      "opts": [
+        "Apenas plural",
+        "Fusão da preposição a com artigo a",
+        "Pronúncia obrigatoriamente forte",
+        "Concordância verbal"
+      ],
+      "a": 1,
+      "ex": "Quem encaminha algo o encaminha a alguém; o termo feminino admite artigo. A análise combina regência e artigo.",
+      "refs": [
+        "portugues",
+        "funag"
+      ],
+      "inspiration": "Crase foi tema da questão 1 de SESPA 2023. A frase e as alternativas são novas.",
+      "reviewed": "2026-09-26",
+      "kind": "Autoral",
+      "answer": "B — Fusão da preposição a com artigo a",
+      "explanation": "Quem encaminha algo o encaminha a alguém; o termo feminino admite artigo. A análise combina regência e artigo."
     }
   ]
 }

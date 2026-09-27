@@ -1,4 +1,10 @@
 {
-  "generated_at": "26/09/2026",
-  "items": []
+  "generated_at": "27/09/2026",
+  "items": [],
+  "errors": [
+    {
+      "url": "https://www.fhcgv.pa.gov.br/",
+      "error": "HTTP Error 502: Bad Gateway"
+    }
+  ]
 }

@@ -1,22 +1,14 @@
 {
   "https://consulplan.azurewebsites.net/Concurso/Index/1606": {
-    "hash": "",
-    "name": "Consulplan — concurso FHCGV",
-    "checked_at": "26/09/2026"
+    "name": "Consulplan — FHCGV",
+    "hash": "481a2295ba1336da364b8c4b1b5df4e966893aea3a70d00635902360a1b1ea48",
+    "last_success": "27/09/2026",
+    "checked_at": "27/09/2026"
   },
   "https://www.fhcgv.pa.gov.br/": {
     "hash": "",
-    "name": "FHCGV — portal oficial",
-    "checked_at": "26/09/2026"
-  },
-  "https://www.seplad.pa.gov.br/": {
-    "hash": "",
-    "name": "SEPLAD — Governo do Pará",
-    "checked_at": "26/09/2026"
-  },
-  "https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps": {
-    "hash": "",
-    "name": "Ministério da Saúde — RAPS",
-    "checked_at": "26/09/2026"
+    "name": "FHCGV",
+    "checked_at": "27/09/2026",
+    "error": "HTTP Error 502: Bad Gateway"
   }
 }
