@@ -9,6 +9,6 @@
     "hash": "",
     "name": "FHCGV",
     "checked_at": "27/09/2026",
-    "error": "HTTP Error 502: Bad Gateway"
+    "error": "<urlopen error [Errno -2] Name or service not known>"
   }
 }

@@ -4,7 +4,7 @@
   "errors": [
     {
       "url": "https://www.fhcgv.pa.gov.br/",
-      "error": "HTTP Error 502: Bad Gateway"
+      "error": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
