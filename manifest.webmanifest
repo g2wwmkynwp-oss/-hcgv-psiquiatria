@@ -1,9 +1,0 @@
-{
-  "name": "HCGV C-224 — Médico Psiquiatria",
-  "short_name": "HCGV Psiq",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#f5f7fb",
-  "theme_color": "#0b243b",
-  "description": "Plataforma de estudos para o concurso FHCGV C-224 — Médico Psiquiatra."
-}
